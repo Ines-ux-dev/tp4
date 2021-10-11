@@ -2,6 +2,10 @@ import React from 'react';
 import Nav from './containers/nav';
 import User from './containers/user';
 import Harold from './img/harold.jpg';
+import Jeanne from './img/jeanne.jpg';
+import Martine from './img/martine.jpg';
+import Claude from './img/claude.jpg';
+
 import './index.css';
 
 export default class App extends React.Component {
@@ -12,26 +16,26 @@ export default class App extends React.Component {
             users: [
                 {
                     name: 'Jeanne',
-                    surname: 'Dupont',
+                    surname: 'De las nueva',
                     birthdate: '25/07/1996',
-                    picture: Harold,
-                    lastPublication: 'Ceci est la dernière publication de Jeanne',
+                    picture: Jeanne,
+                    lastPublication: "J'aime le surf et j'adore les dauphins",
                     like: 0
                 },
                 {
                     name: 'Martine',
                     surname: 'Dupont',
-                    birthdate: '25/07/1996',
-                    picture: Harold,
-                    lastPublication: 'Ceci est la dernière publication de Martine',
+                    birthdate: '20/11/1945',
+                    picture: Martine,
+                    lastPublication: "J'adore tricotter",
                     like: 0
                 },
                 {
                     name: 'Claude',
-                    surname: 'Dupont',
-                    birthdate: '25/07/1996',
-                    picture: Harold,
-                    lastPublication: 'Ceci est la dernière publication de Claude',
+                    surname: 'Patrick',
+                    birthdate: '10/10/1989',
+                    picture: Claude,
+                    lastPublication: "Je suis mannequin et je vis à Londres",
                     like: 0
                 },
             ],
